@@ -7,7 +7,7 @@
 Summary:	Provides an easy way to perform HTTP requests
 Name:		php-pear-%{upstream_name}
 Version:	2.0.0
-Release:	%mkrel 2
+Release:	%mkrel 0.0.0
 License:	BSD
 Group:		Development/PHP
 URL:		http://pear.php.net/package/HTTP_Request2/
