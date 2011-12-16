@@ -7,7 +7,7 @@
 Summary:	Provides an easy way to perform HTTP requests
 Name:		php-pear-%{upstream_name}
 Version:	2.0.0
-Release:	%mkrel 2
+Release:	%mkrel 3
 License:	BSD
 Group:		Development/PHP
 URL:		http://pear.php.net/package/HTTP_Request2/
@@ -60,7 +60,7 @@ pear install --nodeps --soft --force --register-only \
 %if %mdkversion < 201000
 if [ "$1" -eq "0" ]; then
     pear uninstall --nodeps --ignore-errors --register-only \
-        %{pear_name} >/dev/null || :
+        %{upstream_name} >/dev/null || :
 fi
 %endif
 
