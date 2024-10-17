@@ -10,7 +10,7 @@ Version:	2.1.1
 Release:	%mkrel 1
 License:	BSD
 Group:		Development/PHP
-URL:		http://pear.php.net/package/HTTP_Request2/
+URL:		https://pear.php.net/package/HTTP_Request2/
 Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tgz
 Requires(post): php-pear
 Requires(preun): php-pear
